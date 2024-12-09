@@ -13,11 +13,18 @@
 5. [Contribuer](#contribuer)
 6. [Licence](#licence)
 
-## Installation 
+## Installation
 
-1. Clonez ce dépôt :
+1. Clonez ce dépôt
+
     ```bash
-    git clone https://github.com/diamond-diadem/DAE-project.git
-    cd DAE-spectra-project
+    git clone https://github.com/diamond-diadem/DAE-spectra.git
+    cd DAE-spectra
     ```
-2. 
+
+2. Créez l'environnement Conda
+
+    ```bash
+    conda env create -f environment.yml
+    conda activate dae-env
+    ```
