@@ -32,6 +32,7 @@ LOG_DIR = os.getenv("LOG_DIR", os.path.join(BASE_DIR, "logs"))
 # ========================
 N_CONV_LAYERS = 11
 FILTERS = [32, 32, 64, 64, 128] # of length ceil((N_CONV_LAYERS - 1) / 2)
+KERNEL_SIZE = 11 
 EPOCHS = 5
 BATCH_SIZE = 64
 OPTIMIZER = "adam"
