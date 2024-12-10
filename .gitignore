@@ -7,6 +7,12 @@ pyvenv.cfg
 
 __pycache__
 
-data/** */
+data/**
 !data/**/
 data/*/*
+
+notebooks/*
+!notebooks/
+
+logs/*
+!logs/
