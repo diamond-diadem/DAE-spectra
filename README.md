@@ -22,9 +22,35 @@
     cd DAE-spectra
     ```
 
-2. Créez l'environnement Conda
+2. Créez l'environnement Conda...
 
     ```bash
     conda env create -f environment.yml
     conda activate dae-env
     ```
+
+3. ...Ou créez un environnement virtuel (venv) avec pip
+
+    ```bash
+    python -m venv dae-venv
+    source dae-venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+    ou
+
+    ```bash
+    python3 -m venv dae-venv
+    source dae-venv/bin/activate
+    pip3 install -r requirements.txt
+    ```
+
+## Utilisation
+
+## Structure du projet
+
+## Exemples
+
+## Contribuer
+
+## Licence
